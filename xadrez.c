@@ -23,9 +23,23 @@ void moverRainha() {
         
     }
 }
+
+void moverCavalo() {
+        for (int i = 0; i < 2; i++) {        
+        printf("Baixo\n");
+    
+        int j = 0;
+        while (j < 1 && i == 1) {        
+            printf("Esquerda\n");
+            j++;
+        }
+}
+}
+
 int main() {
     moverTorre();
     moverBispo();
-    moverRainha();
+    moverRainha(); 
+    moverCavalo();
     return 0;
 }
